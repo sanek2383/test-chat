@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+    flex: 0 0 50px;
+    background-color: #ccc;
+}
+
+#footer {
+    flex: 0 0 100px;
+    background-color: #ccc;
+}
+
+#main-content {
+    flex: 1;
+    display: flex;
+}
+
+#sidebar {
+    flex: 0 0 200px;
+    overflow-y: auto;
+    background-color: #ddd;
+    max-height: calc(100vh - 150px);
+}
+
+#right-panel {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #eee;
+    max-height: calc(100vh - 150px);
+}
